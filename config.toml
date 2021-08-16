@@ -1,0 +1,99 @@
+baseURL = "http://mkdasconsultancy.in"
+languageCode = "en"
+defaultContentLanguage = "en"
+title = "M.K. Das and Sikha Das | Tax Consultants | Siliguri & Darjeeling"
+theme="dream"
+
+copyright = ''
+
+googleAnalytics = ""
+
+disqusShortname = ""
+
+enableRobotsTXT = true
+
+hasCJKLanguage = true
+
+# Paginate = 6
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+
+# https://gohugo.io/news/0.60.0-relnotes/
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+[params]
+  background = "#fff"
+  backgroundImage = "img/background.jpg"
+  linkColor = "seagreen"
+
+  # dark mode
+  # defaultDark = true
+  backgroundDark = "#333"
+  backgroundImageDark = "img/background.jpg"
+  darkLinkColor = "darkseagreen"
+  # darkNav = true
+  # dark404 = true
+  images = ["img/background.jpg"]
+
+  author = "M.K. Das"
+  description = "M.K. Das and Sikha Das | Tax Consultants | Siliguri & Darjeeling"
+  avatar = "/img/avataaars.png"
+  headerTitle = "M.K. Das and Sikha Das | Tax Consultants | Siliguri & Darjeeling"
+  motto = "Your tax headaches taken care of."
+  # maxTags = 5
+
+  # footerBottomText = ""
+
+  rss = true
+
+  # valine = true
+  # LEANCLOUD_APP_ID = ""
+  # LEANCLOUD_APP_KEY = ""
+
+  email = "mridul.k.das@hotmail.com"
+  twitter = ""
+  facebook = ""
+  instagram = ""
+  # mastodon = ""
+  linkedin = ""
+  github = ""
+  stackoverflow = ""
+  # codepen = ""
+
+  siteStartYear = 2021
+
+  favicon = "/favicon.ico"
+
+  highlightjs = true
+  highlightjsCDN = "https://cdn.jsdelivr.net/gh/highlightjs/cdn-release/build/highlight.min.js"
+  highlightjsExtraLanguages = ["clojure", "ocaml"]
+  highlightjsTheme = "tomorrow"
+  highlightjsThemeDark = "tomorrow-night"
+
+  # search
+  enableSearch = true
+
+  #menu
+  enableMenu = true
+
+  # options
+  showSummaryCoverInPost = true
+  # hasTwitterEmbed = true
+  # reversePostAndAside = true
+  # shareInAside = true
+  fixedNav = true
+  # collapsibleTags = true
+  # collapseBySummary = true
+
+  [params.advanced]
+    customCSS = ["css/custom.css"]
+    # customJSBefore = []
+    # customJS = []
+
+  [params.experimental]
+    jsDate = true
+    jsDateFormat = "yyyy-MM-dd"

@@ -1,0 +1,26 @@
+{
+  "name": "mkdasconsultancy.in",
+  "version": "1.0.0",
+  "description": "Mridul K Das Consultancy",
+  "dependencies": {},
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "htmlhint": "^0.11.0"
+  },
+  "scripts": {
+    "test:htmllint": "htmlhint 'public/*.html' 'public/**/*.html'",
+    "test:eslint": "eslint static/js --ext .js",
+    "test": "npm run test:htmllint && npm run test:eslint",
+    "build": "hugo -d public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arpanchhetri/mkdasconsultancy"
+  },
+  "author": "Arpan Chhetri",
+  "license": "MPL-2.0",
+  "bugs": {
+    "url": "https://github.com/arpanchhetri/mkdasconsultancy/issues"
+  },
+  "homepage": "https://github.com/arpanchhetri/mkdasconsultancy#readme"
+}

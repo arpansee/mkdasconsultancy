@@ -1,0 +1,25 @@
+# Hugo default output directory
+/public
+
+## OS Files
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# OSX
+.DS_Store
+
+_site/
+.sass-cache/
+.jekyll-metadata
+js/*.tsv
+Gemfile.lock
+public/
+nohup.out
+/node_modules
+.idea
+static/js/main.min.js
+static/css/main.min.css
+resources/_gen/

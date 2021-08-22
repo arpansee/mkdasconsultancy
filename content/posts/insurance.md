@@ -1,5 +1,5 @@
 ---
-title: LIC
+title: Insurances
 date: 2021-08-22T14:51:18+12:00
 author: M.K.Das
 avatar: /img/avataaars.png
@@ -14,7 +14,7 @@ tags:
   - Health Insurance
 nolastmod: true
 ---
-## Insurance
+## Why Insurance
 
 When we are fit & healthy, it’s hard to imagine life changing. How would our family manage financially if we died? There are insurances available which can ease financial difficulties should the unthinkable happen.
 

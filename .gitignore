@@ -19,5 +19,6 @@ nohup.out
 static/js/main.min.js
 static/css/main.min.css
 resources/_gen/
+.vscode
 # Hugo default output directory
 public/

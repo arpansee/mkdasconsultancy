@@ -12,10 +12,7 @@ date: 2021-08-16T19:44:54+12:00
 
 **You can also send us a request using the form below,and we will be in touch within 48 hours:**
 
-<form name="contact" method="POST" data-netlify-recaptcha="true" netlify-honeypot="bot-field" data-netlify="true">
-  <p class="hidden">
-    <label>Don’t fill this out if you’re human: <input name="bot-field" /></label>
-  </p>
+<form name="contact" method="POST" data-netlify-recaptcha="true" data-netlify="true">
   <p>
     <label>Your Name: <input type="text" name="name" /></label>   
   </p>

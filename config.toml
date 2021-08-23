@@ -4,7 +4,7 @@ defaultContentLanguage = "en"
 title = "M.K. Das and Sikha Das | Tax Consultants | Siliguri & Darjeeling"
 theme="dream"
 
-copyright = ''
+#copyright = ''
 
 googleAnalytics = ""
 
@@ -12,7 +12,7 @@ disqusShortname = ""
 
 enableRobotsTXT = true
 
-hasCJKLanguage = true
+hasCJKLanguage = false
 
 # Paginate = 6
 
@@ -46,7 +46,7 @@ hasCJKLanguage = true
   motto = "Your tax headaches taken care of."
   # maxTags = 5
 
-  # footerBottomText = ""
+  footerBottomText = "<a href=\"/posts/contact-us\">Contact Us</a>"
 
   rss = true
 
@@ -55,13 +55,13 @@ hasCJKLanguage = true
   # LEANCLOUD_APP_KEY = ""
 
   email = "mridul.k.das@hotmail.com"
-  twitter = ""
-  facebook = ""
-  instagram = ""
+  #twitter = ""
+  facebook = "mridulsikha.das"
+  #instagram = ""
   # mastodon = ""
-  linkedin = ""
-  github = ""
-  stackoverflow = ""
+  #linkedin = ""
+  #github = ""
+  #stackoverflow = ""
   # codepen = ""
 
   siteStartYear = 2021
@@ -86,7 +86,7 @@ hasCJKLanguage = true
   # reversePostAndAside = true
   # shareInAside = true
   fixedNav = true
-  # collapsibleTags = true
+   collapsibleTags = true
   # collapseBySummary = true
 
   [params.advanced]

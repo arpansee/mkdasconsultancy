@@ -6,7 +6,7 @@ avatar: /img/avataaars.png
 # authorlink: https://author.site
 cover: /img/lifeinsurance.jpeg
 images:
-   - /img/lic-logo.png
+   - /img/lifeinsurance.png
 categories:
   - services
 tags:

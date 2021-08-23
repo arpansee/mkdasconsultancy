@@ -14,7 +14,7 @@ tags:
   - Health Insurance
 nolastmod: true
 ---
-## Why Insurance
+## Insurance
 
 When we are fit & healthy, it’s hard to imagine life changing. How would our family manage financially if we died? There are insurances available which can ease financial difficulties should the unthinkable happen.
 
